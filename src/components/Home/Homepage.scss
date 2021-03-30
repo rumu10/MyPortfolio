@@ -1,6 +1,6 @@
 .bg {
  /* The image used */
- background-image: url('../../Assets/Images/bg.jpg');
+ background-image: url('../../Assets/Images/bg2.jpg');
  /* Full height */
  height: 100vh; 
  /* Center and scale the image nicely */
@@ -24,6 +24,16 @@
   padding: 0.5rem 1.2rem ;
  }
 
+ .social-links {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+ }
+
+ .social-links a {
+  color: aliceblue;
+ }
+
  .row {
   margin: 0!important;
  }
@@ -37,16 +47,37 @@
 
 }
 
+.rotate {
+ animation: rotation 2s;
+}
+
+.linear {
+ animation-timing-function: linear;
+}
+
+.infinite {
+ animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+ from {
+   transform: rotate(0deg);
+ }
+ to {
+   transform: rotate(359deg);
+ }
+}
+
 @media only screen and (max-width: 600px) {
  .home-intro {
   width: 100%;
   position: absolute;
   top: 50%;
-  left: 57% !important;
+  left: 50%;
   transform: translate(-50%, -50%);
  }
 
- .home-detail {
-  margin-left: -55px;
+ .home-name {
+  text-align: center;
  }
 }
