@@ -41,7 +41,7 @@ const Homepage = () => {
 			<div className="home-intro">
 				<h1 className='home-name' style={{ color: '#ffffffb5', fontSize: '40px', fontWeight: '700' }}>SUDIPTA <span> BISWAS</span></h1>
 				{/* <p style={{ textAlign:'center', color: 'white', fontSize: '20px', fontWeight: '700' }}>I am a developer</p> */}
-				<div className='home-detail' style={{ textAlign: 'center', color: '#6baca9', fontSize: '25px', fontWeight: '700' }}><Wave style={{ color: 'white' }} text="I'm a Developer" effect="stretch" effectChange={2.0} /></div>
+				<div className='home-detail' style={{ textAlign: 'center', color: '#31adc1f5', fontSize: '25px', fontWeight: '700' }}><Wave style={{ color: 'white' }} text="I'm a Developer" effect="stretch" effectChange={2.0} /></div>
 			</div>
 			<div className="social-links">
 				<Nav defaultActiveKey="/home" className="flex-column">
