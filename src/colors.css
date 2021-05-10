@@ -1,0 +1,9 @@
+:root {
+  --white: #ffffff;
+  --primaryColor: #31adc1f5;
+  --detailInfoColor: #f3ecec6e;
+  --buttonAccentColor: #888888;
+  --buttonAccentColor-hover: #888888be;
+  --sidebar-button-active-color: #F4EAE1;
+  --sidebar-button-active-text-color: #F8786F;
+}

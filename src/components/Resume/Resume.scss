@@ -1,0 +1,53 @@
+.resume {
+  background-image: url("../../Assets/Images/resumebg.jpg");
+  z-index: 0;
+  min-height: 100vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .ant-card {
+    background-color: #0a0a0a;
+    color: white;
+    border-radius: 10px;
+	 min-height: fit-content;
+
+	 .ant-card-body {
+		padding: 10px 0 0 0;
+	 }
+  
+	 p {
+		margin-bottom: 0;
+		font-size: 15px;
+		color: #ffffff96;
+	 }
+  
+	 hr {
+		border-top: 1px solid #55565652;
+	 }
+
+	 svg {
+		 font-size: 20px;
+	 }
+  }
+
+  .ant-card-bordered {
+	border-left: 4px solid #17a2b8 !important;
+	border: 1px solid #1d1a1afc;
+	box-shadow: 0px 0px 13px -8px #17a2b8;
+ }
+
+ p{
+	 color: aliceblue;
+	 margin-bottom: 0;
+ }
+
+ .ant-progress-text {
+	 color: aliceblue;
+ }
+ a {
+	 line-height: 25px;
+ }
+}

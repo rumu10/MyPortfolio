@@ -8,7 +8,7 @@ import './Homepage.scss';
 
 const Homepage = () => {
 	return (
-		<div className='bg'>
+		<div className='bg' >
 			<br />
 			<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 				<Navbar.Brand href="#home" className="rotate linear infinite">
@@ -26,13 +26,13 @@ const Homepage = () => {
 					<Nav className="mr-auto"></Nav>
 					<Nav>
 						<Nav.Link href="/about">About</Nav.Link>
-						<Nav.Link eventKey={2} href="#memes">
+						<Nav.Link eventKey={2} href="/resume">
 							Resume
       				</Nav.Link>
-						<Nav.Link eventKey={2} href="#memes">
+						<Nav.Link eventKey={2} href="/protfolio">
 							Porfolio
       				</Nav.Link>
-						<Nav.Link eventKey={2} href="#memes">
+						<Nav.Link eventKey={2} href="/contact">
 							Contact Me
       				</Nav.Link>
 					</Nav>
@@ -45,7 +45,7 @@ const Homepage = () => {
 			</div>
 			<div className="social-links">
 				<Nav defaultActiveKey="/home" className="flex-column">
-					<Nav.Link href="/home"><FaFacebook/></Nav.Link>
+					<Nav.Link target='_blank' href="https://www.facebook.com/srum1012/"><FaFacebook/></Nav.Link>
 					<Nav.Link eventKey="link-1"><FaGithub/></Nav.Link>
 					<Nav.Link eventKey="link-2"><FaLinkedin/></Nav.Link>
 				</Nav>

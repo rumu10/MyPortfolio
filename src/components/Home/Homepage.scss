@@ -2,7 +2,7 @@
  /* The image used */
  background-image: url('../../Assets/Images/bg2.jpg');
  /* Full height */
- height: 100vh; 
+ min-height: 100vh; 
  /* Center and scale the image nicely */
  background-position: center;
  background-repeat: no-repeat;
@@ -28,6 +28,7 @@
   position: absolute;
   bottom: 25px;
   left: 0;
+  font-size: 20px;
  }
 
  .social-links a {
