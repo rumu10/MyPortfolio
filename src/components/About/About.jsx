@@ -127,7 +127,7 @@ const About = () => {
                     color: "var(--primaryColor)",
                     fontSize: "16px",
                     fontWeight: "700",
-					textDecoration:'underline'
+					          textDecoration:'underline'
                   }}
                 >
                   <span style={{color:'var(--white)'}}>Email:</span> sudiptarumu@gmail.com
