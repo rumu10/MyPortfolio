@@ -181,15 +181,15 @@ const Resume = () => {
         </Col>
       </Row>
       <br />
-		<br />
-		<div style={{ textAlign: "center" }}>
+		  <br />
+		  <div style={{ textAlign: "center" }}>
               <Button
                 style={{ backgroundColor: "var(--primaryColor)" }}
                 type="primary"
                 shape="round"
                 icon={<DownloadOutlined />}
                 size="large"
-					 href='https://drive.google.com/drive/folders/1LzA-GhyjZFdXBXXvFaUcsbuHY56XVWKt?usp=sharing'
+					 href='https://drive.google.com/file/d/128jjwQjQAdexmnVdmWhI6NK614GO_QVy/view?usp=sharing'
 					 target="_blank"
               >
                 Download CV
