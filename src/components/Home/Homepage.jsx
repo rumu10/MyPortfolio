@@ -1,6 +1,5 @@
 import React from 'react';
-import { Row, Col, Nav, Navbar } from 'react-bootstrap';
-import img from '../../Assets/Images/logo.png';
+import { Nav } from 'react-bootstrap';
 import { Wave } from 'react-animated-text';
 import {FaFacebook, FaGithub, FaLinkedin} from 'react-icons/fa';
 

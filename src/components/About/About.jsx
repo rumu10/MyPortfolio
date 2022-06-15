@@ -48,13 +48,13 @@ const About = () => {
       <div>
         <Row>
           <Col lg={{ span: 4, offset: 5 }}>
-            <img
+            {/* <img
               style={{ borderRadius: "10px" }}
               width="350"
               height="480"
               alt="example"
               src={propic}
-            />
+            /> */}
           </Col>
           <Col lg={{ span: 8, offset: 1 }}>
             <p
