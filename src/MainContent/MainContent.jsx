@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
-import Scrollspy from 'react-scrollspy'
 import About from '../components/About/About';
 import Homepage from '../components/Home/Homepage';
-import NavBar from '../components/Nav/Nav';
 import Portfolio from '../components/Portfolio/Portfolio';
 import Resume from '../components/Resume/Resume';
 

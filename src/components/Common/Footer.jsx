@@ -1,5 +1,4 @@
 import React from 'react';
-import { Row, Col, Card, Button } from "antd";
 import { CopyrightCircleOutlined } from "@ant-design/icons";
 
 const Footer = () => {

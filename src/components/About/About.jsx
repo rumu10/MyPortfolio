@@ -1,14 +1,11 @@
 import "./About.scss";
 import React from "react";
-import img from "../../Assets/Images/logo.png";
 import propic from "../../Assets/Images/propic.jpg";
-import { Wave } from "react-animated-text";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
-import { Row, Col, Card, Button } from "antd";
+import { Row, Col, Button } from "antd";
 import { DownloadOutlined } from "@ant-design/icons";
 import { Nav } from "react-bootstrap";
 
-const { Meta } = Card;
 
 const About = () => {
   return (
@@ -48,13 +45,13 @@ const About = () => {
       <div>
         <Row>
           <Col lg={{ span: 4, offset: 5 }}>
-            {/* <img
+            <img
               style={{ borderRadius: "10px" }}
               width="350"
               height="480"
               alt="example"
               src={propic}
-            /> */}
+            />
           </Col>
           <Col lg={{ span: 8, offset: 1 }}>
             <p

@@ -2,11 +2,6 @@ import './App.css';
 import 'antd/dist/antd.css';
 import './colors.css';
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-import Homepage from './components/Home/Homepage';
-import About from './components/About/About';
-import Resume from './components/Resume/Resume';
-import NavBar from './components/Nav/Nav';
 import MainContent from './MainContent/MainContent';
 
 function App() {

@@ -69,7 +69,7 @@ const Resume = () => {
                   <p>{v.subj}</p>
                   <p>{v.session}</p>
                 </div>
-                {i == 2 ? null : <hr />}
+                {i === 2 ? null : <hr />}
               </div>
             ))}
           </Card>
@@ -103,7 +103,7 @@ const Resume = () => {
                   <p>{v.span}</p>
                   {/* <p>{v.session}</p> */}
                 </div>
-                {i == 1 ? null : <hr />}
+                {i === 1 ? null : <hr />}
               </div>
             ))}
           </Card>
