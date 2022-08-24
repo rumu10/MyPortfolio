@@ -40,18 +40,71 @@ const MainContent = () => {
 			});
 		}
 	}, [])
+	
+	useEffect(() => {
+		function reveal() {
+			var reveals = document.querySelectorAll(".reveal");
+		  
+			for (var i = 0; i < reveals.length; i++) {
+			  var windowHeight = window.innerHeight;
+			  var elementTop = reveals[i].getBoundingClientRect().top;
+			  var elementVisible = 150;
+		  
+			  if (elementTop < windowHeight - elementVisible) {
+				reveals[i].classList.add("active");
+			  } else {
+				reveals[i].classList.remove("active");
+			  }
+			}
+		  }
+		  
+		  window.addEventListener("scroll", reveal);
+
+		  const navSlide = () => {
+			const burger = document.querySelector('.burger');
+			const nav = document.querySelector('.nav-links');
+			const navLinks = document.querySelectorAll('.nav-links li');
+			
+			//Toggle Nav
+			burger.addEventListener('click', ()=>{
+			  nav.classList.toggle('nav-active');
+			  
+			  //Animate Links
+			  navLinks.forEach((link, index)=>{
+				if(link.style.animation){
+				  link.style.animation = ''
+				}else{
+					  link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+		  
+				}
+			  });
+			  
+			  //burger animation
+			  burger.classList.toggle('toggle');
+			  
+			  
+			});
+		  }
+		  navSlide();
+	}, [])
+	
 
 	return (
 		<div>
 			<div className="menu-bar">
 				<nav class="navigation">
-					<ul>
+					<ul class="nav-links">
 						<li><a href="#home">Home</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#resume">Resume</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#contact">Contact</a></li>
+						{/* <li><a href="#contact">Contact</a></li> */}
 					</ul>
+					<div class="burger">
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+  					</div>
 				</nav>
 			</div>
 			<div className="main-content">

@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-content">
-      <div style={{ textAlign: "center" }}>
+      <div className="reveal" style={{ textAlign: "center" }}>
         <br />
         <br />
         <p
@@ -39,12 +39,9 @@ const About = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
       <div>
-        <Row>
-          <Col lg={{ span: 4, offset: 5 }}>
+        <Row justify = 'center'>
+          <Col className="reveal" lg={{ span: 8, offset: 0 }}>
             <img
               style={{ borderRadius: "10px" }}
               width="350"
@@ -53,7 +50,7 @@ const About = () => {
               src={propic}
             />
           </Col>
-          <Col lg={{ span: 8, offset: 1 }}>
+          <Col className="reveal" lg={{ span: 8, offset: 0 }}>
             <p
               style={{
                 margin: "0",
@@ -72,8 +69,9 @@ const About = () => {
                 fontSize: "25px",
                 fontWeight: "700",
               }}
+              className="reveal"
             >
-              I'm Sudipta Biswas, a Junior Software Engineer and I'm from
+              I'm Sudipta Biswas, a Software Engineer and I'm from
               Dhaka,Bangladesh
             </h2>
             <br />
@@ -84,17 +82,19 @@ const About = () => {
                 fontSize: "16px",
                 fontWeight: "700",
               }}
+              className="reveal"
             >
               I've completed my graduation in Computer Science And Engineering
               (CSE) in 2019. After that I worked as a trainee in a software firm
-              for 9 months. Lately, I am working as a Junior Software engineer
+              for 9 months. Lately, I am working as a Software engineer
               in V2 Techonologies Ltd. I mostly work in Javascript.Initially I
-              started as a frontend developer. But now started working in
-              backend as well.
+              started as a frontend developer. But from last year I am working as 
+              a Full-Stack Software Engineer. Fast-forward to today, I have been given responsiblity to 
+              manage projects. In future, I see myself as a Project Manager.
             </p>
             <br />
             <hr style={{ border: "1px solid #edf0f31a" }} />
-            <Row>
+            <Row className="reveal">
               <Col lg={{ span: 10, offset: 0 }}>
                 <p
                   style={{
@@ -145,18 +145,19 @@ const About = () => {
             <br />
             <br />
             <br />
-            <div style={{ textAlign: "center" }}>
+            <div className="reveal" style={{ textAlign: "center" }}>
               <Button
                 style={{ backgroundColor: "var(--primaryColor)" }}
                 type="primary"
                 shape="round"
                 icon={<DownloadOutlined />}
-                size="large"
+                size=""
+                href="https://drive.google.com/file/d/1MY7sC5-axiiEJ6N_thJYbNLbhgGYe_Lv/view?usp=sharing"
               >
                 Download CV
               </Button>
             </div>
-            <div className="social-links">
+            <div className="social-links reveal">
               <Nav defaultActiveKey="/home" className="justify-content-center">
                 <Nav.Link href="/home">
                   <FaFacebook />
