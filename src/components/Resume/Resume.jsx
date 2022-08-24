@@ -3,6 +3,7 @@ import React from "react";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import { DownloadOutlined } from "@ant-design/icons";
 import { education, experience, skills } from "../../util/Data";
+import Tilt from 'react-tilt';
 
 import "./Resume.scss";
 import Footer from "../Common/Footer";
@@ -10,7 +11,7 @@ import Footer from "../Common/Footer";
 const Resume = () => {
   return (
     <div className="resume">
-      <div >
+      <div className="main-div">
         <div className="reveal" style={{ textAlign: "center" }}>
           <br />
           <br />
@@ -53,20 +54,22 @@ const Resume = () => {
               {education.map((v, i) => (
                 <div>
                   <AiOutlineCaretRight />
-                  <div style={{ margin: "0px 0 20px 30px" }}>
-                    <h2
-                      style={{
-                        color: "white",
-                        //  textDecoration: "underline",
-                        fontSize: "22px",
-                      }}
-                    >
-                      {v.degree}
-                    </h2>
-                    <p>{v.institution}</p>
-                    <p>{v.subj}</p>
-                    <p>{v.session}</p>
-                  </div>
+                  <Tilt className="Tilt" options={{ max: 35, scale: 1.08 }}>
+                    <div style={{ margin: "0px 0 20px 30px" }}>
+                      <h2
+                        style={{
+                          color: "white",
+                          //  textDecoration: "underline",
+                          fontSize: "22px",
+                        }}
+                      >
+                        {v.degree}
+                      </h2>
+                      <p>{v.institution}</p>
+                      <p>{v.subj}</p>
+                      <p>{v.session}</p>
+                    </div>
+                  </Tilt>
                   {i === 2 ? null : <hr />}
                 </div>
               ))}
@@ -87,20 +90,22 @@ const Resume = () => {
               {experience.map((v, i) => (
                 <div>
                   <AiOutlineCaretRight />
-                  <div style={{ margin: "0px 0 20px 30px" }}>
-                    <h2
-                      style={{
-                        color: "white",
-                        //  textDecoration: "underline",
-                        fontSize: "22px",
-                      }}
-                    >
-                      {v.post}
-                    </h2>
-                    <p>{v.office}</p>
-                    <p>{v.span}</p>
-                    {/* <p>{v.session}</p> */}
-                  </div>
+                  <Tilt className="Tilt" options={{ max: 35, scale: 1.08 }}>
+                    <div style={{ margin: "0px 0 20px 30px" }}>
+                      <h2
+                        style={{
+                          color: "white",
+                          //  textDecoration: "underline",
+                          fontSize: "22px",
+                        }}
+                      >
+                        {v.post}
+                      </h2>
+                      <p>{v.office}</p>
+                      <p>{v.span}</p>
+                      {/* <p>{v.session}</p> */}
+                    </div>
+                  </Tilt>
                   <Popover content={
                     <div>
                       {
@@ -137,7 +142,7 @@ const Resume = () => {
           {
             skills.map(v => {
               return (
-                <Col lg={{ span: 7, offset: 4 }} >
+                <Col lg={{ span: 7, offset: 4 }} xs={{ span: 7, offset: 0 }} >
                   <p>{v.name}</p>
                   <Progress
                     strokeColor={{

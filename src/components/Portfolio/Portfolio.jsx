@@ -37,7 +37,7 @@ const Portfolio = () => {
 				</h1>
 			</div>
 			<br />
-			<div className="reveal" style={{ display: 'flex', justifyContent: 'center' }} >
+			<div className="reveal main-div" style={{ display: 'flex', justifyContent: 'center' }} >
 				<Tabs defaultActiveKey="1" >
 					<TabPane tab="Projects" key="1">
 						<Row gutter={[16, 16]} justify='center' >

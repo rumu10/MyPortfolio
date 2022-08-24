@@ -5,7 +5,7 @@ import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Row, Col, Button } from "antd";
 import { DownloadOutlined } from "@ant-design/icons";
 import { Nav } from "react-bootstrap";
-
+import Tilt from 'react-tilt';
 
 const About = () => {
   return (
@@ -39,8 +39,9 @@ const About = () => {
       <br />
       <br />
       <br />
-      <div>
+      <div className="main-div">
         <Row justify = 'center'>
+        <Tilt className="Tilt" options={{ max: 35, scale: 1.08 }}  >
           <Col className="reveal" lg={{ span: 8, offset: 0 }}>
             <img
               style={{ borderRadius: "10px" }}
@@ -50,7 +51,8 @@ const About = () => {
               src={propic}
             />
           </Col>
-          <Col className="reveal" lg={{ span: 8, offset: 0 }}>
+          </Tilt>
+          <Col className="reveal" md={{ span: 24, offset: 0 }} lg={{ span: 8, offset: 1 }} xs ={{ span: 24, offset: 0 }}>
             <p
               style={{
                 margin: "0",
