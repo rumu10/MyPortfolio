@@ -118,7 +118,7 @@ const MainContent = () => {
 					<Resume />
 				</section>
 				<section id="portfolio">
-					<Portfolio />
+					<Portfolio/>
 				</section>
 			</div>
 		</div>
