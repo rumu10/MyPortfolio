@@ -86,13 +86,13 @@ const About = () => {
               }}
               className="reveal"
             >
-              I've completed my graduation in Computer Science And Engineering
-              (CSE) in 2019. After that I worked as a trainee in a software firm
-              for 9 months. Lately, I am working as a Software engineer
-              in V2 Techonologies Ltd. I mostly work in Javascript.Initially I
-              started as a frontend developer. But from last year I am working as 
-              a Full-Stack Software Engineer. Fast-forward to today, I have been given responsiblity to 
-              manage projects. In future, I see myself as a Project Manager.
+              I graduated in 2019 with a degree in Computer Science And Engineering (CSE). 
+              Upon graduating, I worked as a trainee at a software firm for 9 months before 
+              landing a position at V2 Technologies Ltd. as a Software Engineer focusing on 
+              front-end development. My role changed last year from a Front-End Developer to 
+              a Full-Stack Software Engineer. Currently, I manage projects and work mostly in 
+              Node.js, React.js PostgreSQL, etc. In the future, I would like to take on more
+              project management responsibilities roles and become a Project Manager.
             </p>
             <br />
             <hr style={{ border: "1px solid #edf0f31a" }} />
