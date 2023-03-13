@@ -1,10 +1,16 @@
 export const education = [
 	{
+		degree: 'Master of Science (MS)',
+		institution: 'Worcester Polytechnic Institute',
+		subj:'Computer Science',
+		session:'(2023-present)',
+	},
+	{
 		degree: 'Bachelor of Science (B.Sc)',
 		institution: 'Ahsanullah University of Science And Technology (AUST)',
 		subj:'Computer Science And Engineering (CSE)',
 		session:'(2015-2019)',
-		cgpa:'3.309'
+		// cgpa:'3.309'
 	},
 	{
 		degree: 'Higher Secondary School Certificate (HSC)',
@@ -24,9 +30,33 @@ export const education = [
 
 export const experience = [
 	{
+		post:'Graduate Teaching Assistant',
+		office:'Worcester Polytechnic Institute',
+		span:'Jan 2023 - present',
+		res: [
+			{
+				id: 1,
+				des: '• Support instructor with test administration, and curriculum development.'
+			},
+			{
+				id: 2,
+				des: '• Deliver personalized educational, behavioral, and emotional support to individual students to enable positive learning outcomes.'
+			},
+			{
+				id: 3,
+				des: '• Arrange weekly problem-solving sessions regarding studies.'
+			},
+			{
+				id: 4,
+				des: '• Take attendance and grade assignments of undergraduate students to assist teachers with administrative tasks.'
+			},
+
+		]
+	},
+	{
 		post:'Software Engineer',
 		office:'V2 Technologies Ltd',
-		span:'Nov 2021 - present',
+		span:'June 2022 - Dec 2022',
 		res: [
 			{
 				id: 1,
@@ -61,7 +91,7 @@ export const experience = [
 	{
 		post:'Jr Software Engineer',
 		office:'V2 Technologies Ltd',
-		span:'Oct 2020 - Oct 2021',
+		span:'Oct 2020 - May 2022',
 		res: [
 			{
 				id: 1,

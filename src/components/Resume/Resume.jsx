@@ -168,7 +168,7 @@ const Resume = () => {
             shape="round"
             icon={<DownloadOutlined />}
             size=""
-            href='https://drive.google.com/file/d/1MY7sC5-axiiEJ6N_thJYbNLbhgGYe_Lv/view?usp=sharing'
+            href='https://drive.google.com/file/d/1ECO4ztYaf3o4vwHv_FMR8xxRQnu0k3_W/view?usp=sharing'
             target="_blank"
           >
             Download CV

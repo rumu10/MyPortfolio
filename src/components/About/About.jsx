@@ -86,11 +86,11 @@ const About = () => {
               }}
               className="reveal"
             >
-              I graduated in 2019 with a degree in Computer Science And Engineering (CSE). 
+              Currently, I am pursuing my MS in CS.I did my udergraduate in 2019 with a degree in Computer Science And Engineering (CSE). 
               Upon graduating, I worked as a trainee at a software firm for 9 months before 
               landing a position at V2 Technologies Ltd. as a Software Engineer focusing on 
-              front-end development. My role changed last year from a Front-End Developer to 
-              a Full-Stack Software Engineer. Currently, I manage projects and work mostly in 
+              front-end development. My role changed from a Front-End Developer to 
+              a Full-Stack Software Engineer after being promoted.I work mostly in 
               Node.js, React.js PostgreSQL, etc. In the future, I would like to take on more
               project management responsibilities roles and become a Project Manager.
             </p>
@@ -116,7 +116,7 @@ const About = () => {
                     fontWeight: "700",
                   }}
                 >
-                  <span style={{color:'var(--white)'}}>Contact No: </span> +8801673304886
+                  <span style={{color:'var(--white)'}}>Contact No: </span> +1(774)5199876
                 </p>
               </Col>
               <Col lg={{ span: 10, offset: 4 }}>
@@ -154,7 +154,7 @@ const About = () => {
                 shape="round"
                 icon={<DownloadOutlined />}
                 size=""
-                href="https://drive.google.com/file/d/1MY7sC5-axiiEJ6N_thJYbNLbhgGYe_Lv/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ECO4ztYaf3o4vwHv_FMR8xxRQnu0k3_W/view?usp=sharing"
               >
                 Download CV
               </Button>
