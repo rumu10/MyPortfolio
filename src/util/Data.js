@@ -142,6 +142,18 @@ export const experience = [
 
 export const works = [
 	{
+		title: 'My Portfolio',
+		des: 'A portfolio website developed with Html5, Css3, React.js, Antd',
+		gitUrl:'https://github.com/rumu10/my-portfolio',
+		colour: '#31adc1f5'
+	},
+	{
+		title: 'MedSavvy',
+		des: 'A CRM System developed with Html5, Css3, React.js, Antd, Node.Js',
+		gitUrl:'https://github.com/rumu10/MedSavvy-Backend',
+		colour: '#e83e8c'
+	},
+	{
 		title: 'Online-Gadget',
 		des: 'A desktop application developed with Java and MySQL',
 		gitUrl:'https://github.com/rumu10/OnlineGadget_AUST_CSE_3100_DatabaseProject',
@@ -176,12 +188,6 @@ export const works = [
 		des: 'A website developed with Html5, Css3, React.js, Firebase (running)',
 		gitUrl:'https://github.com/rumu10/Clothing-Store',
 		colour: '#e83e8c'
-	},
-	{
-		title: 'My Portfolio',
-		des: 'A portfolio website developed with Html5, Css3, React.js, Antd',
-		gitUrl:'https://github.com/rumu10/my-portfolio',
-		colour: '#31adc1f5'
 	}
 ];
 
